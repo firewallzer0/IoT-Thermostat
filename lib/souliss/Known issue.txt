@@ -1,0 +1,32 @@
+Souliss
+Copyright (C) 2012  Veseo
+
+	Drivers for Microchip MRF24WB0MA
+
+		The drivers included in vNet for Microchip MRF24WB0MA are based on AsyncLab porting
+		of the Microchip Application Library, latest firmware releases of Microchip MRF24WB0MA
+		doesn't longer work with that libraries.
+		
+		All devices with firmware release lower than 0x120C are expected to work properly, this
+		firmware (according to Microchip Errata) is released starting from devices manufactured
+		from 1222 (week 22 of 2012), the model number of MRF24WB0MA chip reports the manufacturing
+		date.
+		
+		Actually the SPI operational codes for that chip are not public available, is then required
+		a reverse of last Microchip Application Library to find out changes that shall be applied to
+		get the new release working.
+		
+	Interface HTTP and HTTP/XML for Microchip ENC28J60
+		
+		The code hasn't been tested deeply and have an earlier stage of development
+			
+	Drivers for Wiznet W5100 / W5200 / W5500
+		
+		The drivers used are modified for oFrame usage, and while transferring multiple bytes are opening
+		and closing the SPI communication (CS low and then high) for each byte. The W5200 and W5500 support
+		transfer of multiple bytes, this feature is not used in the actual driver.
+		
+	Drivers for Microchip ENC28J60
+
+		The drivers are working fine with static addressing, but works in dynamic addressing mode only
+		using small payload setup.
