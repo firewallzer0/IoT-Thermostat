@@ -1,0 +1,12 @@
+{
+  "name": "NTP",
+  "frameworks": "Arduino",
+  "keywords": "ntp, udp, ethernet, time",
+  "description": "NTP client",
+  "url": "https://github.com/PlantFactory/NTP",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/PlantFactory/NTP.git"
+  }
+}

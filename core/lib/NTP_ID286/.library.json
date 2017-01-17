@@ -1,0 +1,29 @@
+{
+    "name": "NTP", 
+    "repository": {
+        "url": "https://github.com/PlantFactory/NTP.git", 
+        "type": "git"
+    }, 
+    "platforms": [], 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "b877802bca", 
+    "authors": [
+        {
+            "maintainer": false, 
+            "name": "PlantFactory", 
+            "url": "https://github.com/PlantFactory", 
+            "email": null
+        }
+    ], 
+    "keywords": [
+        "ntp", 
+        "udp", 
+        "time", 
+        "ethernet"
+    ], 
+    "homepage": "https://github.com/PlantFactory/NTP", 
+    "id": 286, 
+    "description": "NTP client"
+}
